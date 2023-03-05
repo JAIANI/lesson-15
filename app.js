@@ -124,6 +124,6 @@ const currencies = [
 for (let i = 0; i < currencies.length; i++) {
   currencies.diff = currencies[i].diff;
   if (currencies[i].diff < 0) {
-    console.log(currencies[i].name);
+    console.log(currencies[i].name, currencies[i].code);
   }
 }
